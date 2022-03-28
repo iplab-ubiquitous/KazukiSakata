@@ -2,159 +2,108 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8" />
-    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <!-- BootstrapのCSS読み込み -->
-    <link href="./css/bootstrap.min.css" rel="stylesheet" />
-    <link href="./css/style.css" rel="stylesheet" />
-    <link href="./css/screensize.css" rel="stylesheet" />
-    <!-- jQuery読み込み -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- BootstrapのJS読み込み -->
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="./js/fixing_sample.js"></script>
-
-    <meta charset="utf-8" />
-    <title>Kazuki Sakata</title>
-    <meta content="" name="description" />
-    <meta content="坂田 和輝" name="author" />
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" href="./css/output.css" />
   </head>
 
   <body>
-    <header>
-      <div class="container">
-        <div class="header-right">
-          <ul class="nav nav-tabs">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">日本語</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="index_Eng.html">English</a>
-            </li>
-          </ul>
+    <header class="bg-gray-100">
+      <nav>
+        <div class="flex gap-2 px-4 py-2">
+          <a
+            class="px-4 py-2 hover:bg-blue-600 hover:text-white rounded"
+            href="index.html"
+            >日本語</a
+          >
+          <a
+            class="px-4 py-2 rounded bg-blue-600 text-white"
+            href="index_Eng.html"
+            >English</a
+          >
         </div>
-        <div class="header-left">
-          <h1 class="name">
-            <small class="text-muted">坂田 和輝 |</small> Kazuki Sakata
-          </h1>
-        </div>
-      </div>
+      </nav>
     </header>
 
-    <div class="background_img">
-      <div class="container row">
-        <div class="col-lg-4 content1">
-          <div class="thumbnails">
-            <img alt="" class="img-fluid img-thumbnail" src="" />
-          </div>
-          <hr />
-          <h2>Affiliation</h2>
-          <ul>
-            <li>
-              <a href="https://www.coins.tsukuba.ac.jp/en/">
-                Master’s Program in Computer Science University of Tsukuba
-                Graduate School of Science and Technology Degree Programs in
-                Systems and Information Engineering
-              </a>
-            </li>
-            <li>
-              <a href="https://www.iplab.cs.tsukuba.ac.jp/">IPLAB </a>
-              UBIQUITOUS Team
-            </li>
-          </ul>
+    <main class="m-4">
+      <h1>Kazuki Sakata</h1>
 
-          <!--
-            <h2>Society</h2>
-            <ul>
-                <li><a href="https://www.acm.org/">ACM</a> student membership</li>
-            </ul>
-            -->
-          <h2>Contact</h2>
-          <a href="mailto:sakata@iplab.cs.tsukuba.ac.jp"
-            ><img alt="" height="18" src="img/gmail.png" width="18" />
-            sakata[AT]iplab.cs.tsukuba.ac.jp</a
-          ><br />
-          <!--
-            <a href="https://github.com/ukitomato"
-            ><img alt="" height="18" src="img/github.png" width="18"/>
-                ukitomato</a
-            >
-            -->
-        </div>
+      <h2>Affiliation</h2>
+      <ul>
+        <li>
+          <a href="https://www.cs.tsukuba.ac.jp/english/index.html"
+            >Master's Program in Computer Science, Degree Programs in Systems
+            and Information Engineering, Graduate School of Science and
+            Technology, University of Tsukuba
+          </a>
+          M1
+        </li>
+        <li>
+          <a href="https://www.iplab.cs.tsukuba.ac.jp/"
+            >Interactive Programming Laboratory (IPLAB)</a
+          >
+          UBIQUITOUS Team
+        </li>
+      </ul>
 
-        <div class="col-lg-8 content2">
-          <h2>Publication</h2>
-          <!--
-            <h3>Refereed International Conference Papers</h3>
-            <ul>
-                <li>
-                    Takumi Kitagawa, <u>Yuki Yamato</u>, Buntarou Shizuki, and Shin Takahashi. <br/>
-                    <b>A Viewpoint Control Method for 360° Media Using Helmet Touch Interface</b>
-                    <a href="https://dl.acm.org/ft_gateway.cfm?id=3360008&ftid=2088527&dwn=1&CFID=167878267&CFTOKEN=fb3123857ec15759-AF2867E4-9A7D-EC71-5B0430F02D3AB859">
-                        <img alt="" height="18" src="img/pdf.png" width="18"/>
-                    </a>
-                    <br/>
-                    In Symposium on Spatial User Interaction (SUI '19), Christoph W. Borst, Arun K. Kulshreshth,
-                    Gerd Bruder, Stefania Serafin, Christian Sandor, Kyle Johnsen, Jinwei Ye, Daniel Roth, and
-                    Sungchul Jung (Eds.). ACM, New York, NY, USA, Article 33, 2 pages
-                </li>
-                <li>
-                    Yutaro Suzuki, Kodai Sekimori, <u>Yuki Yamato</u>, Yusuke Yamasaki, Buntarou Shizuki, and Shin
-                    Takahashi<br/>
-                    <b>A Mouth Gesture Interface Featuring a Mutual-Capacitance Sensor Embedded in a Surgical
-                        Mask</b>
-                    <br/>
-                    Proceedings of 22nd International Conference on Human-Computer Interaction (HCI International 2020),
-                    Springer (To appear)
-                </li>
-            </ul>
--->
-          <h3>Bachelor thesis</h3>
-          <ul>
-            <li>
-              <u>Kazuki Sakata</u><br />
-              <b>Hat-shaped touch interface using conductive fabric for VR</b>
-              <a
-                href="https://www.iplab.cs.tsukuba.ac.jp/paper/bachelor/sakata_bachelor.pdf"
-              >
-                <img alt="" height="18" src="img/pdf.png" width="18" />
-              </a>
-            </li>
-          </ul>
-          <hr />
+      <h2>Contact</h2>
+      <a href="mailto:sakata@iplab.cs.tsukuba.ac.jp">
+        sakata[AT]iplab.cs.tsukuba.ac.jp</a
+      >
 
-          <h3>Convention</h3>
-          <ul>
-            <li>
-              <u>Kazuki Sakata</u><br />
-              <b>Hat-shaped touch devices for virtual reality interaction </b>
-              <a
-                href="https://www.iplab.cs.tsukuba.ac.jp/paper/convention/sakata_ipsj2020.pdf"
-              >
-                <img alt="" height="18" src="img/pdf.png" width="18" /> </a
-              ><br />
-              The 83rd National Convention for IPSJ
-            </li>
-          </ul>
-          <hr />
+      <h2>Publication</h2>
+      <h3>International Conference</h3>
+      <span class="underline">Kazuki Sakata</span>, Buntarou Shizuki, Ikkaku
+      Kawaguchi, and Shin Takahashi. 2021. A Hat-shaped Pressure-Sensitive
+      Multi-Touch Interface for Virtual Reality. In
+      <i
+        >Proceedings of the 27th ACM Symposium on Virtual Reality Software and
+        Technology</i
+      >
+      (<i>VRST '21</i>). Association for Computing Machinery, New York, NY, USA,
+      Article 47, 1--3. <br />
+      DOI:<a href="https://doi.org/10.1145/3489849.3489909"
+        >https://doi.org/10.1145/3489849.3489909</a
+      >
 
-          <h2>Biography</h2>
-          <ul>
-            <li>[2014.4 - 2017.3] Ryugasaki Daiichi High School</li>
-            <li>
-              [2017.4 - 2021.3] College of Information Science, Science and
-              Technology, School of Informatics, University of Tsukuba
-            </li>
-            <li>
-              [2021.4 - current] Master’s Program in Computer Science University
-              of Tsukuba Graduate School of Science and Technology Degree
-              Programs in Systems and Information Engineering
-            </li>
-          </ul>
-          <hr />
-        </div>
-      </div>
-    </div>
+      <h3>Bachelor Thesis</h3>
+      <p>
+        <span class="underline">坂田和輝</span>，高橋伸，川口一画，志築文太郎
+      </p>
+      <a
+        href="https://www.iplab.cs.tsukuba.ac.jp/paper/bachelor/sakata_bachelor.pdf"
+        >導電布を用いたVR向け帽子型タッチインタフェース</a
+      >
+
+      <h3>Convention</h3>
+      <p>
+        <span class="underline">坂田和輝</span>，川口一画，志築文太郎，高橋伸
+      </p>
+      <a
+        href="https://www.iplab.cs.tsukuba.ac.jp/paper/convention/sakata_ipsj2020.pdf"
+        >VRインタラクションのための帽子型タッチインタフェース</a
+      >
+      <p>情報処理学会 第83回全国大会</p>
+
+      <h2>Awards</h2>
+      <ul>
+        <li>情報処理学会 第83回全国大会 学生奨励賞</li>
+      </ul>
+
+      <h2>Biography</h2>
+      <ul>
+        <li>[2014.4 - 2017.3] Ryugasaki Daiichi High School</li>
+        <li>
+          [2017.4 - 2021.3] College of Information Science, Science and
+          Technology, School of Informatics, University of Tsukuba
+        </li>
+        <li>
+          [2021.4 - current] Master's Program in Computer Science, Degree
+          Programs in Systems and Information Engineering, Graduate School of
+          Science and Technology, University of Tsukuba
+        </li>
+      </ul>
+    </main>
+    <footer class="px-4 py-2 bg-gray-100">
+      <p class="text-gray-600 text-sm">Update date: March 28, 2022</p>
+    </footer>
   </body>
 </html>

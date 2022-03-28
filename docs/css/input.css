@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-xl mt-6 font-semibold;
+  }
+
+  h2 {
+    @apply text-lg mt-4 mb-1 border-b font-semibold;
+  }
+
+  h3 {
+    @apply mt-2 font-semibold;
+  }
+
+  a {
+    @apply text-blue-600 hover:underline;
+  }
+}

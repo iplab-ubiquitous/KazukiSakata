@@ -1,2 +1,2 @@
 # KazukiSakata
-個人ページ用リポジトリ
+個人ページ用リポジトリ（with tailwindcss）
