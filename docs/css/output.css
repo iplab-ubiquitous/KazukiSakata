@@ -456,6 +456,8 @@ h2 {
 h3 {
   margin-top: 2rem;
   margin-bottom: 0.25rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
   font-weight: 600;
 }
 

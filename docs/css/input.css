@@ -24,7 +24,7 @@
   }
 
   h3 {
-    @apply mt-8 mb-1 font-semibold;
+    @apply text-lg mt-8 mb-1 font-semibold;
   }
 
   a {
