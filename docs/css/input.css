@@ -11,7 +11,7 @@
     @apply m-8;
   }
 
-  main > *:first-child {
+  *:first-child {
     @apply mt-0;
   }
 
