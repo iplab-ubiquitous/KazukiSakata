@@ -432,7 +432,7 @@ main {
   margin: 2rem;
 }
 
-main > *:first-child {
+*:first-child {
   margin-top: 0px;
 }
 
@@ -469,10 +469,6 @@ a {
 a:hover {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
-}
-
-td {
-  padding-right: 0.5rem;
 }
 
 *, ::before, ::after {

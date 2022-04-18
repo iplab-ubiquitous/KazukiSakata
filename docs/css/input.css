@@ -30,8 +30,4 @@
   a {
     @apply text-blue-600 hover:underline;
   }
-
-  td {
-    @apply pr-2;
-  }
 }
